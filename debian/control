@@ -1,0 +1,16 @@
+Source: board-beaglexm
+Section: embedded
+Priority: extra
+Maintainer: Bill Gatliff <bgat@billgatliff.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+
+Package: board-beaglexm
+Architecture: all
+Description: Board package for Beagleboard XM devices
+ This package defines the lowest-level packages required by any
+ Beagleboard XM, regardless of the final application.
+Depends:
+ linux-beaglexm,
+ u-boot-beaglexm,
+${misc:Depends}
