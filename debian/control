@@ -13,4 +13,5 @@ Description: Board package for Beagleboard XM devices
 Depends:
  linux-beaglexm,
  u-boot-beaglexm,
+ firmware-beaglexm,
 ${misc:Depends}
