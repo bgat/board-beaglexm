@@ -12,6 +12,6 @@ Description: Board package for Beagleboard XM devices
  Beagleboard XM, regardless of the final application.
 Depends:
  linux-beaglexm,
- u-boot-am335x,
+ u-boot-omap3,
  firmware-beaglexm,
 ${misc:Depends}
